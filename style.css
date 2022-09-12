@@ -1,0 +1,32 @@
+
+
+ * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      #canvas {
+        background: black;
+      }
+
+.main{
+  display: flex;
+  flex-direction: column;
+  background:#383333;
+  padding: 2vw;
+  height:600px;
+  color : yellow;           
+}
+
+.main > input{
+  margin : 20px;
+  height:5vh;
+}
