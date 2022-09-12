@@ -44,6 +44,13 @@ function draw() {
   strokeWeight(4);
   fill(200);
   circle(bobby.x, bobby.y, 40);
+  
+  
+  strokeWeight(2);
+  fill("rgba(151,255,255,0.1)");
+  stroke("rgba(151,255,255,0.1)");
+  circle(anchor.x, restLength, 40);
+  line(anchor.x, anchor.y, anchor.x, restLength - 20);
 
   calculateForce();
   controlbobby();
